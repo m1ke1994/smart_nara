@@ -1,0 +1,21 @@
+body{
+   background-color: #CEF5CE;
+   color:black
+}
+/* бюргер меню */
+.menu-enter-active,
+.menu-leave-active {
+  transition: all 0.5s ease;
+}
+
+.menu-enter,
+.menu-leave-to {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+.menu-enter-to,
+.menu-leave {
+  opacity: 1;
+  transform: translateY(0);
+}
